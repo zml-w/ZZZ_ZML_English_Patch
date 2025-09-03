@@ -1,3 +1,11 @@
+<div align="center">
+  
+## The patch file needs to be used with ComfyUI-ZML-Image. 
+
+# [Click here to download](https://github.com/zml-w/ComfyUI-ZML-Image)
+
+</div>
+
 # ZZZ_ZML_English_Patch
 - ### ComfyUI-ZML-Image English translation patch
 
