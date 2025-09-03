@@ -3,6 +3,10 @@
 
 - ### The documentation was translated by AI.
 
+- ### Simply place the patch file in the same directory to use it!
+
+<img width="807" height="77" alt="屏幕截图 2025-09-03 124948" src="https://github.com/user-attachments/assets/5ff21b5f-12f5-4946-bc57-a97922dd2374" />
+
 # 💕 Brief Introduction to the Nodes:
 **This is a feature-rich COMFYUI custom node pack, mainly related to “Image, Text, Integer, LoRA Loader, Mask”, along with some miscellaneous small tools. Currently, there are 50+ nodes in total, and generally, new nodes are added every two days.**
 
