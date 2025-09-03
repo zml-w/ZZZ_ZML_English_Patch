@@ -15,6 +15,8 @@
 
 - ### The name must remain "ZZZ_ZML_English_Patch"!
 
+- ### I just tested and found a bug...   some nodes are not working properly...   I tried to fix it but couldn't
+
 At present, some nodes are not functioning properly.At present, some nodes are not functioning properly.
 
 <img width="807" height="77" alt="屏幕截图 2025-09-03 124948" src="https://github.com/user-attachments/assets/5ff21b5f-12f5-4946-bc57-a97922dd2374" />
