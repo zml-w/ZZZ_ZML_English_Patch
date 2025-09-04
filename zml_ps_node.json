@@ -1,9 +1,9 @@
 {
     "NODE_DISPLAY_NAME_MAPPINGS": {
-        "ZML_图像形变（有bug）": "ZML_Image Deform (Buggy)"
+        "ZML_图像形变（有bug）": "ZML_Image Deform (buggy)"
     },
     "UI_TEXT": {
-        "image/ZML_图像/图像": "image/ZML_Image/Image",
+        "ZML_图像": "ZML_Image",
         "图像": "Image"
     }
 }
