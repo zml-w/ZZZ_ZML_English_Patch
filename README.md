@@ -15,9 +15,7 @@
 
 - ### The name must remain "ZZZ_ZML_English_Patch"!
 
-- ### I just tested and found a bug...   some nodes are not working properly...   I tried to fix it but couldn't
-
-At present, some nodes are not functioning properly.At present, some nodes are not functioning properly.
+- ### Except for the drop-down options and the nodes with UI interfaces written in JS, everything else has been translated normally!
 
 <img width="807" height="77" alt="屏幕截图 2025-09-03 124948" src="https://github.com/user-attachments/assets/5ff21b5f-12f5-4946-bc57-a97922dd2374" />
 
@@ -32,7 +30,21 @@ At present, some nodes are not functioning properly.At present, some nodes are n
 
 ## ✨ Version Update Notes
 
-> ### Latest Update Date: **2025.09.03**
+> ### Latest Update Date: **2025.09.04**
+
+> - #### The Tagged Image Selection Node can now remember the last opened location, so you no longer have to search for subfolders every time you open it.
+>
+> - #### Removed the regular LORA loading node.
+>
+> - #### When parsing LORA metadata and fetching C-site information for powerful LORAs, if a "wan" LORA is encountered, both the MP4 and the initial frame will now be saved simultaneously.
+> 
+> - #### The powerful LORA Loader node, and the batch add LORA page, now support MP4 playback!!
+>
+> - #### There are also some minor optimizations, which won't be detailed here.
+
+<details>
+  
+> ### Update Date: **2025.09.03**
 >
 > - #### Fixed a minor bug in the Random Text Weight node.
 >
@@ -52,7 +64,6 @@ At present, some nodes are not functioning properly.At present, some nodes are n
 >   * You can view and edit txt and log files (trigger words and descriptions) in real-time, and also delete LoRAs and related files with one click. Deleted LoRAs will be labeled “Deleted” to prevent incorrect loading.
 >
 
-<details>
 <summary>Click to view more past updates</summary>
 
 > ### Update Date: **2025.09.02**
