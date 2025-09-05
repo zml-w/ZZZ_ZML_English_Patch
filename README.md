@@ -30,6 +30,16 @@
 
 ## ✨ Version Update Notes
 
+> ### Last Updated: **2025.09.06**
+>
+> - #### Optimized the UI of the powerful LoRA Loader node, making it more comfortable to use! Multiple color theme options have also been added!
+>
+> - #### Optimized all text nodes! They now all support line breaks! And I've changed the default delimiter to ",\n\n" for all of them, making the prompt structure much clearer and more visible!
+>
+> - #### The Text Selector V3 node now includes a preset text button, allowing you to add presets to the text box with a single click!
+
+<details>
+
 > ### Latest Update Date: **2025.09.04**
 
 > - #### The Tagged Image Selection Node can now remember the last opened location, so you no longer have to search for subfolders every time you open it.
@@ -42,8 +52,6 @@
 >
 > - #### There are also some minor optimizations, which won't be detailed here.
 
-<details>
-  
 > ### Update Date: **2025.09.03**
 >
 > - #### Fixed a minor bug in the Random Text Weight node.
@@ -254,6 +262,16 @@
 
 <details>
 <summary>Click to view updated node images</summary>
+
+> ### Update Date： **2025.09.06**
+
+> <img width="1154" height="839" alt="1" src="https://github.com/user-attachments/assets/b8229940-2363-4d93-8c21-9185bdb4efd1" />
+> 
+> <img width="1204" height="664" alt="2" src="https://github.com/user-attachments/assets/7561e40b-4461-4a44-a70b-0dfb27c6d290" />
+> 
+> <img width="986" height="830" alt="3" src="https://github.com/user-attachments/assets/3f5dc8a2-5183-4cee-96e7-8b39ce197b3e" />
+> 
+
 
 > ### Update Date: **2025.09.03**
 >
