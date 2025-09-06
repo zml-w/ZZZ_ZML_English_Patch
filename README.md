@@ -37,6 +37,9 @@
 > - #### Optimized all text nodes! They now all support line breaks! And I've changed the default delimiter to ",\n\n" for all of them, making the prompt structure much clearer and more visible!
 >
 > - #### The Text Selector V3 node now includes a preset text button, allowing you to add presets to the text box with a single click!
+>
+> - #### Added a new "Load LoRA by Name (nunchaku)" node. Yes, it's adapted for nunchaku, allowing for more convenient use of nunchaku by combining the "Powerful LoRA Loader" node with "Load LoRA by Name (nunchaku)"!
+>
 
 <details>
 
@@ -265,6 +268,8 @@
 
 > ### Update Date： **2025.09.06**
 
+><img width="1687" height="786" alt="4" src="https://github.com/user-attachments/assets/151b4379-c9ce-4339-b512-c8aaf313d6a0" />
+>
 > <img width="1154" height="839" alt="1" src="https://github.com/user-attachments/assets/b8229940-2363-4d93-8c21-9185bdb4efd1" />
 > 
 > <img width="1204" height="664" alt="2" src="https://github.com/user-attachments/assets/7561e40b-4461-4a44-a70b-0dfb27c6d290" />
