@@ -28,6 +28,77 @@
 
 `All node names start with “ZML_” and are all placed under the “Image/ZML_Image” category.`
 
+<details>
+<summary>Click here to view Image Node introduction</summary>
+
+> ### Initially designed for easy management of images and prompts, saving prompts as PNG text chunks within the images:
+> <img width="1632" height="875" alt="1_1" src="https://github.com/user-attachments/assets/b23e248e-dc40-4000-9cb7-0f77dd448350" />
+>
+> ### For even more convenient management, I also created a visual UI:
+> <img width="1739" height="877" alt="1_15" src="https://github.com/user-attachments/assets/14957496-ca5e-406d-8c07-e944371c98f3" />
+>
+> ### Text chunks can be edited in real-time:
+> <img width="1796" height="889" alt="1_16" src="https://github.com/user-attachments/assets/49a5645c-61d7-4f90-88c4-bf137a63a808" />
+>
+> ### And then output:
+> <img width="1413" height="617" alt="1_6" src="https://github.com/user-attachments/assets/9c805e33-40dc-468d-a4a1-6bd8df9ff7ee" />
+>
+> ### The "Load Image from Path" node can randomize images and text chunks. The "Load Image" node can output an alpha channel and text chunks; no images are provided for these.
+
+> ### Next are other image nodes, such as visual image cropping:
+> <img width="982" height="893" alt="1_2" src="https://github.com/user-attachments/assets/3bbf3bb4-9c4e-4d9a-bf0b-6a415d0eea7b" />
+> <img width="1254" height="753" alt="1_3" src="https://github.com/user-attachments/assets/9c7d6257-9f81-4d61-9fde-1b606cc6a0ef" />
+>
+> ### Visual image merging:
+> <img width="911" height="894" alt="1_4" src="https://github.com/user-attachments/assets/e79c6d57-1714-4347-8559-082a191ddf1c" />
+> <img width="1290" height="760" alt="1_5" src="https://github.com/user-attachments/assets/8af17c60-e8e6-4758-a81a-415f37a71cf6" />
+>
+> ### Painting:
+> <img width="1048" height="925" alt="1_8" src="https://github.com/user-attachments/assets/0b60dbbb-bf59-4fea-b93f-fc5470e6db2b" />
+
+</details>
+
+<details>
+<summary>Click here to view LoRA Node introduction</summary>
+
+> ### Due to the large number of features, I won't go into detail. The images should give you a general idea.
+>
+> ### However, there's one feature I really want to tell you about! The nodes can be used with Nunchuck!! Use the functions of the powerful LoRA node to manage your LoRAs, then connect the loaded LoRA list to the dedicated loading node I made for Nunchuck, and you can use Nunchuck with the powerful features of the LoRA Loader!!
+>
+> ### Give your LoRA a custom text or trigger word template, and you can quickly switch functions with a single click! One-click 3D, one-click realistic! One-click figure! One-click TY...
+> <img width="1559" height="748" alt="1_13" src="https://github.com/user-attachments/assets/a8d2cc89-6572-4686-85b6-94b57e1cec96" />
+>
+> ### Visually manage your LoRAs with the UI:
+> <img width="1069" height="826" alt="1_9" src="https://github.com/user-attachments/assets/379631be-4fbc-43c3-93a9-21c2c3e4ac23" />
+>
+> ### Preview MP4!
+> https://github.com/user-attachments/assets/14200a30-581d-4fd1-9dfc-f145f91aa593
+>
+> ### Real-time changes to trigger words and LoRA descriptions:
+> <img width="1103" height="759" alt="356" src="https://github.com/user-attachments/assets/65a3e0b3-04df-46e3-afa9-a2ff173ba6d5" />
+>
+
+</details>
+
+<details>
+<summary>Click here to view Other Node introductions</summary>
+
+> ### Desktop Pet! Chat! Entertainment! NSFW...
+> <img width="1356" height="865" alt="1_7" src="https://github.com/user-attachments/assets/5aa82821-520e-4d8e-9e55-44af75f40412" />
+>
+> ### Generating text images and adding text to images:
+> <img width="1582" height="843" alt="1_11" src="https://github.com/user-attachments/assets/97caad3f-ac3d-44a8-acaf-b0719a65fc79" />
+>
+> ### Feature-rich text nodes, no detailed introduction needed; see the images:
+> <img width="1662" height="869" alt="1_14" src="https://github.com/user-attachments/assets/bf64f1bb-c476-403c-a01e-eb649bcfde8c" />
+>
+> ### Multiple mask nodes created for multi-person images:
+> <img width="1225" height="743" alt="1_10" src="https://github.com/user-attachments/assets/e8a3dfd8-9d76-4f16-b47b-d5b8e177eb30" />
+>
+> #### There are many nodes and they are updated quickly, so they won't all be introduced here. You can check the version update descriptions! Every new node will have an introduction.
+
+</details>
+
 ## ✨ Version Update Notes
 
 > ### Last Updated: **2025.09.06**
