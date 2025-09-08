@@ -1,10 +1,13 @@
 {
     "NODE_DISPLAY_NAME_MAPPINGS": {
-        "ZML_标签化提示词加载器": "ZML_Tagged Prompt Loader"
+        "ZML_标签化提示词加载器": "ZML_Tag Prompt Loader"
     },
     "UI_TEXT": {
-        "ZML_图像": "ZML_Image",
-        "工具": "Tools",
-        "提示词": "Prompt"
+        "提示词": "Prompt",
+        "图像/ZML_图像/工具": "Image/ZML_Image/Tools",
+        "positive_prompt": "Positive Prompt",
+        "Prompt file not found": "Prompt file not found",
+        "Error saving prompts: {str(e)}": "Error saving prompts: {str(e)}",
+        "Prompts saved successfully.": "Prompts saved successfully."
     }
 }

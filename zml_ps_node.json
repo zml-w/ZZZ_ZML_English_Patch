@@ -1,9 +1,11 @@
 {
     "NODE_DISPLAY_NAME_MAPPINGS": {
-        "ZML_图像形变（有bug）": "ZML_Image Deform (buggy)"
+        "ZML_图像形变（有bug）": "ZML_Image Deform (Buggy)"
     },
     "UI_TEXT": {
-        "ZML_图像": "ZML_Image",
-        "图像": "Image"
+        "图像": "Image",
+        "deformation_data": "Deformation Data",
+        "错误: OpenCV或SciPy未安装，无法执行形变。": "Error: OpenCV or SciPy not installed, unable to perform deformation.",
+        "ZML图像形变节点出错: {e}": "ZML Image Deform node error: {e}"
     }
 }
