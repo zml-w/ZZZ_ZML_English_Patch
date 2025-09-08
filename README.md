@@ -20,7 +20,7 @@
 <img width="807" height="77" alt="屏幕截图 2025-09-03 124948" src="https://github.com/user-attachments/assets/5ff21b5f-12f5-4946-bc57-a97922dd2374" />
 
 # 💕 Brief Introduction to the Nodes:
-**This is a feature-rich COMFYUI custom node pack, mainly related to “Image, Text, Integer, LoRA Loader, Mask”, along with some miscellaneous small tools. Currently, there are 50+ nodes in total, and generally, new nodes are added every two days.**
+**This is a feature-rich COMFYUI custom node pack, mainly related to “Image, Text, Integer, LoRA Loader, Mask”, along with some miscellaneous small tools. Currently, there are 60+ nodes in total, and generally, new nodes are added every two days.**
 
 `I developed these according to my own needs.`
 
@@ -101,7 +101,21 @@
 
 ## ✨ Version Update Notes
 
-> ### Last Updated: **2025.09.06**
+> ### Last Updated: **2025.09.09**
+>
+> #### This is a significant update.
+>
+> - #### Added a new "Multiple Text Input_Five V2" node, for use with Text Image nodes.
+>
+> - #### The output type of the LoRA name list in the "Powerful LoRA Loader" node has been changed to a string, which means it can now be saved into a text block! You can save all LoRAs and artist strings within a single image. When using it, you just load one image. Moreover, this method won't display your artist strings and LoRAs in the workflow, and even if you send the original image, your art style won't be leaked! To accommodate this feature, I've also added a "Text Categorization" node, allowing you to set specific delimiters to separate LoRAs and prompts in the text block, and then use the "Text Separation" node to split them apart. An example workflow has been uploaded!
+>
+> - #### Major update for the "Text Image" node! It now supports image input. When an image is input, the node will automatically append the text image to the input image, which is convenient for adding annotations and creating comparison images. It supports batch loading of images! When loading multiple batches of images, it will automatically sort them and automatically calculate the font size and text image resolution. If you want to specify the starting number, step, prefix, and suffix for sorting, you only need to use the syntax "#x:x#", where x is a number. For example, if you input "ZML_#0:0.5#W", then the first image's sequence number will be "ZML_0_W", the second "ZML_0.5_W", and so on! To accommodate this node, I also optimized the "Unified Resolution" node, making it more convenient to use together!
+
+
+
+<details>
+
+> ### Updated: **2025.09.06**
 >
 > - #### Optimized the UI of the powerful LoRA Loader node, making it more comfortable to use! Multiple color theme options have also been added!
 >
@@ -112,9 +126,7 @@
 > - #### Added a new "Load LoRA by Name (nunchaku)" node. Yes, it's adapted for nunchaku, allowing for more convenient use of nunchaku by combining the "Powerful LoRA Loader" node with "Load LoRA by Name (nunchaku)"!
 >
 
-<details>
-
-> ### Latest Update Date: **2025.09.04**
+> ### Update Date: **2025.09.04**
 
 > - #### The Tagged Image Selection Node can now remember the last opened location, so you no longer have to search for subfolders every time you open it.
 >
