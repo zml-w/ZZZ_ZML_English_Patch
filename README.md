@@ -1,5 +1,5 @@
 <div align="center">
-  
+
 ## The patch file needs to be used with ComfyUI-ZML-Image. 
 
 # [Click here to download](https://github.com/zml-w/ComfyUI-ZML-Image)
@@ -101,19 +101,38 @@
 
 ## ✨ Version Update Notes
 
-> ### Last Updated: **2025.09.09**
+> ### Latest Update Date: **2025.09.13**
 >
-> #### This is a significant update.
->
-> - #### Added a new "Multiple Text Input_Five V2" node, for use with Text Image nodes.
->
-> - #### The output type of the LoRA name list in the "Powerful LoRA Loader" node has been changed to a string, which means it can now be saved into a text block! You can save all LoRAs and artist strings within a single image. When using it, you just load one image. Moreover, this method won't display your artist strings and LoRAs in the workflow, and even if you send the original image, your art style won't be leaked! To accommodate this feature, I've also added a "Text Categorization" node, allowing you to set specific delimiters to separate LoRAs and prompts in the text block, and then use the "Text Separation" node to split them apart. An example workflow has been uploaded!
->
-> - #### Major update for the "Text Image" node! It now supports image input. When an image is input, the node will automatically append the text image to the input image, which is convenient for adding annotations and creating comparison images. It supports batch loading of images! When loading multiple batches of images, it will automatically sort them and automatically calculate the font size and text image resolution. If you want to specify the starting number, step, prefix, and suffix for sorting, you only need to use the syntax "#x:x#", where x is a number. For example, if you input "ZML_#0:0.5#W", then the first image's sequence number will be "ZML_0_W", the second "ZML_0.5_W", and so on! To accommodate this node, I also optimized the "Unified Resolution" node, making it more convenient to use together!
 
-
+> - #### Added Integer-String Conversion nodes.
+>
+> - #### Added a Transition Animation node, to generate animations transitioning from image A to image B.
+>
+> - #### Fully optimized the Tagged Image Selection node. It can now randomly select images and includes a new "Medium Icon" mode, making it easier to observe image differences. It can also output folder paths to the "Load Image from Path" node for parallel random selection. When the "Remember Open Location" button is enabled, it outputs the path of the open location; when disabled, it outputs the address bar path.
+>
+> - #### The UI for the Text Block Extractor node has been removed and now reuses the UI of the Tagged Image Selection node. Unlike the Tagged Image Selection node, it doesn't display path indexes, but directly extracts and displays text blocks within the node frame. This allows for modifications to prompts without altering the text blocks within the image.
+>
+> - #### Added a Visual Color Adjustment node, supporting various parameters such as "Brightness, Contrast, Noise, Vignette..." and many more not listed individually.
+>
+> - #### Various other minor optimizations will not be detailed at this time.
 
 <details>
+
+> ### Update Date: **2025.09.10**
+>
+> #### This is a significant update.
+
+> - #### Added a new Multi-Text Input_Five V2 node, for use with text images.
+>
+> - #### Changed the dependency file paths for Merge, Crop, and Draw nodes to dynamic loading. This resolves issues where nodes became unusable due to filenames ending with "main".
+>
+> - #### Added a new Cylindrical Projection node.
+>
+> - #### Added a new Panorama Preview node, for VR previewing your images. Can be used with a Kontexet LoRA. Currently still in testing; released early because someone just reported a bug in the previous version, and I didn't want to meticulously troubleshoot it, so I released my current working version directly.
+>
+> - #### The LoRA name list output type for the Powerful LoRA Loader node has been changed to a string, meaning it can now be saved into a text block! Save all LoRA and artist strings within a single image, then simply load that image when you want to use them. This method also prevents your artist strings and LoRAs from being displayed in the workflow, so even if you send the original image, your art style won't be revealed! To support this feature, I've also added a Text Classification node, allowing you to set specific delimiters to separate LoRAs and prompts in the text block, and then use the Text Split node to break them apart. An example workflow has been uploaded!
+>
+> - #### Major update to the Text Image node! Now supports image input. When an image is input, the node will automatically stitch the text image onto the input image, useful for adding annotations and creating comparison images. Supports batch loading of images! When loading multiple batches of images, it will automatically sort them and calculate font size and text image resolution. If you want to specify the starting sort number, step, prefix, and suffix, simply use the syntax "#x:x#", where x is a number. For example, entering "ZML_#0:0.5#W" will result in the first image's sequence number being "ZML_0_W", the second "ZML_0.5_W", and so on! To complement this node, I've also optimized the Unified Resolution node for easier combined use!
 
 > ### Updated: **2025.09.06**
 >
@@ -349,14 +368,22 @@
 <details>
 <summary>Click to view updated node images</summary>
 
+> ### Update Date： **2025.09.013**
+
+> <img width="868" height="875" alt="1" src="https://github.com/user-attachments/assets/31466b9e-e28b-42b4-87e1-2e3c53986620" />
+> 
+> <img width="1762" height="880" alt="2" src="https://github.com/user-attachments/assets/f03631ce-dddc-4aa9-b0ef-13a3b004a4e0" />
+> 
+> <img width="1373" height="526" alt="3" src="https://github.com/user-attachments/assets/e709c63b-a835-4805-b264-3a554e3c2bd4" />
+>
+> https://github.com/user-attachments/assets/ffd4a564-1659-4322-92ae-f47234c06702
+
 > ### Update Date： **2025.09.06**
 
 > <img width="1408" height="669" alt="屏幕截图 2025-09-09 013650" src="https://github.com/user-attachments/assets/4286f7b9-19fd-400e-8c98-16732a82815f" />
 >
 > ![5F46A8F3AA5F87588473C0F74707C213](https://github.com/user-attachments/assets/1452355a-ea95-4718-a835-bde0e791f379)
 > 
-
-
 
 > ### Update Date： **2025.09.06**
 
