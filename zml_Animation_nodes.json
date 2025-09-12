@@ -1,0 +1,25 @@
+{
+    "NODE_DISPLAY_NAME_MAPPINGS": {
+        "ZML_图像过渡动画": "ZML_Image Transition Animation"
+    },
+    "UI_TEXT": {
+        "图像A": "Image A",
+        "起始图像": "Start Image",
+        "图像B": "Image B",
+        "结束图像": "End Image",
+        "帧数": "Frames",
+        "过渡方向": "Transition Direction",
+        "从左到右": "Left to Right",
+        "从右到左": "Right to Left",
+        "从上到下": "Top to Bottom",
+        "从下到上": "Bottom to Top",
+        "从中心向外": "Center Out",
+        "从外向中心": "Center In",
+        "对角线": "Diagonal",
+        "过渡曲线": "Transition Curve",
+        "控制过渡速度的非线性。小于1加速，大于1减速。": "Controls the non-linearity of transition speed. Less than 1 speeds up, greater than 1 slows down.",
+        "过渡批次": "Transition Batch",
+        "image/ZML_图像/图像": "image/ZML_Image/Image",
+        "Unsupported image tensor format": "Unsupported image tensor format"
+    }
+}

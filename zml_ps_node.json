@@ -1,11 +1,28 @@
 {
     "NODE_DISPLAY_NAME_MAPPINGS": {
-        "ZML_图像形变（有bug）": "ZML_Image Deform (Buggy)"
+        "ZML_图像形变": "ZML_Image Deform",
+        "ZML_圆柱投影": "ZML_Cylindrical Projection",
+        "ZML_全景图预览": "ZML_Pano Viewer",
+        "ZML_可视化调色": "ZML_Visual Color Adjust"
     },
     "UI_TEXT": {
         "图像": "Image",
-        "deformation_data": "Deformation Data",
-        "错误: OpenCV或SciPy未安装，无法执行形变。": "Error: OpenCV or SciPy not installed, unable to perform deformation.",
-        "ZML图像形变节点出错: {e}": "ZML Image Deform node error: {e}"
+        "deformation_data": "deformation_data",
+        "错误: ZML节点 V5.0+ 需要 OpenCV 和 SciPy。请执行: pip install opencv-python scipy": "Error: ZML Node V5.0+ requires OpenCV and SciPy. Please run: pip install opencv-python scipy",
+        "错误: OpenCV或SciPy未安装，无法执行形变。": "Error: OpenCV or SciPy is not installed; deformation cannot be performed.",
+        "ZML图像形变节点出错: {e}": "ZML Image Deform Node Error: {e}",
+        "全景图像": "Panoramic Image",
+        "输出宽度": "Output Width",
+        "输出高度": "Output Height",
+        "水平视角_度": "Horizontal FOV_Degrees",
+        "无缝水平循环": "Seamless Horizontal Loop",
+        "透明背景": "Transparent Background",
+        "错误: OpenCV未安装，无法执行圆柱投影。": "Error: OpenCV is not installed; cylindrical projection cannot be performed.",
+        "输出": "Output",
+        "调整后图像": "Adjusted Image",
+        "color_data": "color_data",
+        "颜色数据解析错误: {e}": "Color data parsing error: {e}",
+        "错误: OpenCV未安装，无法执行颜色调整。": "Error: OpenCV is not installed; color adjustment cannot be performed.",
+        "高级图像工具": "Advanced Image Tools"
     }
 }
