@@ -20,7 +20,7 @@
 <img width="807" height="77" alt="屏幕截图 2025-09-03 124948" src="https://github.com/user-attachments/assets/5ff21b5f-12f5-4946-bc57-a97922dd2374" />
 
 # 💕 Brief Introduction to the Nodes:
-**This is a feature-rich COMFYUI custom node pack, mainly related to “Image, Text, Integer, LoRA Loader, Mask”, along with some miscellaneous small tools. Currently, there are 60+ nodes in total, and generally, new nodes are added every two days.**
+**This is a feature-rich COMFYUI custom node pack, mainly related to “Image, Text, Integer, LoRA Loader, Mask”, along with some miscellaneous small tools. Currently, there are 70+ nodes in total.**
 
 `I developed these according to my own needs.`
 
@@ -101,7 +101,20 @@
 
 ## ✨ Version Update Notes
 
-> ### Latest Update Date: **2025.09.18**
+> ### Latest Update Date: **2025.09.21**
+>
+
+> - #### Fixed a bug where the brush display in the Drawing node was abnormal after zooming, and added a default image for the Drawing node.
+>
+> - #### The UI for preset text in the Text Selection V3 node now supports storing text in folders.
+>
+> - #### The Text to Format node now includes a "Comma Append Newline" option.
+>
+> - #### Added a new "Color to Mask" node.
+
+<details>
+
+> ### Update Date: **2025.09.18**
 >
 
 > - #### Added a "Merge Same Prompts" node, which can combine identical prompts into one.
@@ -121,9 +134,6 @@
 > - #### Optimized the user experience of the Visual Color Adjustment node.
 >
 > - #### Optimized the functionality of the Preset Resolution node.
-
-
-<details>
 
 > ### Update Date: **2025.09.13**
 >
